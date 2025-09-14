@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">Sistema Umbral</string>
+
+    <!-- Login Activity -->
+    <string name="title_login">Sistema Escolar Umbral</string>
+    <string name="hint_email">Correo electrónico</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="btn_login">Iniciar Sesión</string>
+    <string name="link_register">¿No tienes cuenta? Regístrate aquí</string>
+    <string name="error_empty_fields">Por favor complete todos los campos</string>
+    <string name="login_success">¡Bienvenido!</string>
+
+    <!-- Register Activity -->
+    <string name="title_register">Crear Cuenta</string>
+    <string name="hint_name">Nombre completo</string>
+    <string name="hint_confirm_password">Confirmar contraseña</string>
+    <string name="btn_register">Registrarse</string>
+    <string name="link_login">¿Ya tienes cuenta? Inicia sesión</string>
+    <string name="error_password_mismatch">Las contraseñas no coinciden</string>
+    <string name="error_password_length">La contraseña debe tener al menos 6 caracteres</string>
+    <string name="register_success">¡Registro exitoso!</string>
+
+    <!-- Estudiantes -->
+    <string name="titulo_estudiantes">Registro de Estudiantes</string>
+    <string name="hint_nombres">Nombres</string>
+    <string name="hint_apellidos">Apellidos</string>
+    <string name="hint_carnet">Carnet</string>
+    <string name="hint_edad">Edad</string>
+    <string name="hint_telefono">Teléfono</string>
+    <string name="btn_guardar_estudiante">Guardar Estudiante</string>
+    <string name="btn_limpiar">Limpiar Campos</string>
+    <string name="btn_ver_lista">Ver Lista de Estudiantes</string>
+    <string name="btn_volver_menu">Volver al Menú</string>
+    <string name="error_campos_obligatorios">Todos los campos son obligatorios</string>
+    <string name="error_edad_invalida">La edad debe ser un número válido</string>
+    <string name="error_edad_rango">La edad debe estar entre 1 y 100 años</string>
+    <string name="exito_estudiante_guardado">Estudiante registrado correctamente</string>
+    <string name="exito_estudiante_actualizado">Estudiante actualizado correctamente</string>
+
+    <!-- Materias -->
+    <string name="titulo_materias">Registro de Materias</string>
+    <string name="hint_nombre_materia">Nombre de la Materia</string>
+    <string name="hint_codigo_materia">Código de la Materia</string>
+    <string name="btn_guardar_materia">Guardar Materia</string>
+    <string name="btn_ver_lista_materias">Ver Lista de Materias</string>
+    <string name="exito_materia_guardada">Materia registrada correctamente</string>
+    <string name="exito_materia_actualizada">Materia actualizada correctamente</string>
+
+    <!-- Edición -->
+    <string name="titulo_editar_estudiante">Editar Estudiante</string>
+    <string name="titulo_editar_materia">Editar Materia</string>
+    <string name="btn_actualizar">Actualizar</string>
+    <string name="btn_cancelar">Cancelar</string>
+
+    <!-- Eliminación -->
+    <string name="confirmacion_eliminar">¿Estás seguro de eliminar a %1$s %2$s? También se eliminarán todas sus notas.</string>
+    <string name="titulo_eliminar_estudiante">¿Eliminar Estudiante?</string>
+    <string name="titulo_eliminar">¿Eliminar Estudiante?</string>
+    <string name="titulo_eliminar_materia">¿Eliminar Materia?</string>
+    <string name="btn_eliminar">Eliminar</string>
+
+    <!-- Gestión -->
+    <string name="titulo_gestion_estudiantes">Gestión de Estudiantes</string>
+    <string name="titulo_gestion_materias">Gestión de Materias</string>
+    <string name="btn_agregar">Agregar</string>
+    <string name="btn_actualizar_lista">Actualizar Lista</string>
+    <string name="btn_volver">Volver</string>
+    <string name="no_estudiantes">No hay estudiantes registrados</string>
+    <string name="no_materias">No hay materias registradas</string>
+    <string name="confirmar_eliminar_estudiante">¿Estás seguro de eliminar a %1$s %2$s?</string>
+
+    <!-- Notas -->
+    <string name="titulo_notas">Registro de Notas</string>
+    <string name="hint_nota">Nota (0-10)</string>
+    <string name="btn_guardar_nota">Guardar Nota</string>
+    <string name="exito_nota_guardada">Nota registrada correctamente</string>
+    <string name="error_nota_rango">La nota debe estar entre 0 y 10</string>
+
+    <string name="btn_editar_notas">Notas</string>
+    <string name="btn_editar_estudiante">Editar</string>
+    <string name="btn_eliminar_estudiante">Eliminar</string>
+
+    <string name="confirmacion_eliminar_materia">¿Estás seguro de eliminar la materia %1$s? También se eliminarán todas las notas asociadas.</string>
+    <string name="materia_eliminada_notas">Materia y notas eliminadas</string>
+    <string name="notas_materias_eliminadas">Notas con materias eliminadas</string>
+    <string name="btn_buscar">Buscar</string>
+    <string name="btn_guardar">Guardar</string>
+    <string name="nota_encontrada">Nota encontrada</string>
+    <string name="no_nota_periodo">No hay nota registrada para este período</string>
+    <string name="seleccionar_periodo">Seleccione materia y período</string>
+    <string name="btn_eliminar_nota">Eliminar</string>
+    <string name="confirmar_eliminar_nota">¿Estás seguro de eliminar la nota de %1$s?</string>
+    <string name="titulo_eliminar_nota">¿Eliminar Nota?</string>
+    <string name="no_nota_seleccionada">No hay nota seleccionada para eliminar</string>
+    <string name="exito_nota_eliminada">Nota eliminada correctamente</string>
+    <string name="titulo_promedios">Promedios</string>
+    <string name="promedio_general">Promedio General</string>
+    <string name="promedios_por_materia">Promedios por Materia</string>
+    <string name="promedios_por_periodo">Promedios por Período</string>
+</resources>

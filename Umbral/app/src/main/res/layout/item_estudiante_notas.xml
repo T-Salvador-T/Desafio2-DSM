@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardBackgroundColor="@color/purple_700"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="?attr/selectableItemBackground">
+
+        <!-- ENCABEZADO -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:id="@+id/tvNombreEstudiante"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="María González"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:ellipsize="end"
+                android:maxLines="1"/>
+
+            <TextView
+                android:id="@+id/tvCarnet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Carnet: 20230001"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_marginTop="4dp"/>
+
+        </LinearLayout>
+
+        <!-- SEPARADOR -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/fuchsia"
+            android:layout_marginBottom="12dp"
+            android:alpha="0.6"/>
+
+        <!-- NOTAS -->
+        <TextView
+            android:id="@+id/tvNotas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📊 Notas:\n• Matemáticas (Primer Parcial): 8.5\n• Matemáticas (Segundo Parcial): 9.0"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- SEPARADOR -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"
+            android:alpha="0.3"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- PROMEDIO GENERAL -->
+        <TextView
+            android:id="@+id/tvPromedio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🎯 Promedio General: 8.75"
+            android:textColor="@color/fuchsia"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="12dp"
+            android:background="@drawable/bg_promedio"
+            android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

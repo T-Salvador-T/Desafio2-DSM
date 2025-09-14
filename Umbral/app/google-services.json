@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "545067853090",
+    "firebase_url": "https://d2-umbral-default-rtdb.firebaseio.com",
+    "project_id": "d2-umbral",
+    "storage_bucket": "d2-umbral.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545067853090:android:275da268209a6c17e0317b",
+        "android_client_info": {
+          "package_name": "edu.udb.sv.umbral"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZHX7TgjJ8Pq6GC4-cSEkLy_u-d7IxEEE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
